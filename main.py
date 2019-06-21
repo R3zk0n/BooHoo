@@ -11,7 +11,9 @@ from Fuzzing import SMTP
 from swag import swags
 import sys
 import struct
-
+# You’re gonna end up regretting
+#You ever betted against me
+#Feels like I'ma snap any minute, yeah, it's happenin' again
 
 def main():
     if len(sys.argv) < 2:
