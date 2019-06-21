@@ -32,6 +32,7 @@ def main():
         print("HTTP = HTTP Fuzzing\n")
         print("FTP = FTP Fuzzing\n")
         print("Vuln = VulnServer Fuzzing\n")
+        print("SMTP = SMTP Fuzzing\n)
     if args.module == "HTTP":
         HTTP1.HTTP_Fuzzing(args.host, args.port)
     elif args.module == "FTP":
